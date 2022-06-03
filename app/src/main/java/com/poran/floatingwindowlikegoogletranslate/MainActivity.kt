@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
         hasIntent()
     }
 
+    /**
+     * Here is the material alert dialog
+     *
+     * @param selectedText
+     */
     private fun showAlertDialog(selectedText: String) {
         MaterialAlertDialogBuilder(this)
             .setIcon(R.drawable.ic_launcher_foreground)
